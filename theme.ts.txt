@@ -1,0 +1,7 @@
+export interface ITheme {
+  palette: IPalette;
+  fonts: IFontStyles;
+  semanticColors: ISemanticColors;
+  isInverted: boolean;
+  disableGlobalClassNames: boolean;
+}
