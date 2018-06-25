@@ -8,11 +8,8 @@
 		"clean": "node task/clean.js",
 		"prestart": "webpack --config=tasks/webpack.desktop.js",
 		"start": "webpack-dev-server",
-		"start-mock": "webpack-dev-server --env.configId=mock",
-		"start-local-ozone": "webpack-dev-server --env.configId=localOzone",
 		"build": "webpack",
-		"build-watch": "webpack --progress --watch",
-		"build-watch-mock": "webpack --progress --watch --env.configId=mock"
+		"build-watch": "webpack --progress --watch"
 	},
 	"publishConfig": {
 		"access": "public"
